@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import './css/Home/Home.css'
+import './css/Home/Home.css'  
 import fotoexemplo from '../img/medicoanalise.png'
 import fotoHardware from '../img/hardware.png'
 export default function Home() {
