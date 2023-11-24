@@ -8,10 +8,22 @@
       },
      
       {
-        "nome": "aldair",
-        "email": "aldair@gmail.com",
-        "senha": "321",
+        "nome": "Luis",
+        "email": "LuisCarlos@gmail.com",
+        "senha": "cl0133",
         "id": 2
+      },
+      {
+        "nome": "Zedro",
+        "email": "pedrozilves@gmail.com",
+        "senha": "0904",
+        "id": 3
+      },
+      {
+        "nome": "Henriquedbrito",
+        "email": "henriqueBrito@gmail.com",
+        "senha": "abacaixiComPeixe",
+        "id": 4
       }
     ]
   }
