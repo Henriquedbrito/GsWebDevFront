@@ -64,7 +64,7 @@ Para acessar o sistema, siga os passos abaixo:
 5. **Acessar o Site:**
    - Abra o navegador e acesse o link fornecido pelo Git Bash (geralmente algo como `http://localhost:3000`).
 
-### Login e Uso
+## Login e Uso
 
 - Na página de login, use os emails e senhas fornecidos acima.
 - Após o login, você será redirecionado para a página inicial, onde encontrará informações sobre nosso projeto.
