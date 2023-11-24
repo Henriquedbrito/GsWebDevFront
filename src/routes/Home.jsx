@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import './css/Home/Home.css'
 import fotoexemplo from '../img/medicoanalise.png'
-
+import fotoHardware from '../img/hardware.png'
 export default function Home() {
   const navigate = useNavigate();
 
@@ -30,32 +30,35 @@ export default function Home() {
         </p>
       </div>
       <div id="oqFara">
-        <h1>O que faremos</h1>
-        <p className="Textos">MediAlert promete melhorar 
-        significativamente a adesão ao tratamento médico, 
-        reduzindo os riscos associados ao esquecimento de 
-        medicamentos. Ao oferecer lembretes personalizados 
-        para cada dose, o aplicativo assegura que os usuários 
-        tomem seus medicamentos no horário correto. Em 
-        situações de emergência, como uma queda, o usuário 
-        pode utilizar o botão de emergência integrado para 
-        notificar imediatamente os cuidadores, garantindo uma 
-        resposta rápida e eficiente</p>
+      <h2 className="Textos">Plano de Ação: "illTracker"</h2>
+      <ul className="Textos">
+        <li >
+          <strong>Desenvolvimento Tecnológico:</strong> Investir na pesquisa e no desenvolvimento do aplicativo "illTracker", garantindo uma interface intuitiva e de fácil navegação para os pacientes. Além disso, é crucial assegurar a segurança dos dados pessoais e médicos, implementando protocolos robustos de proteção da privacidade.
+        </li>
+        <li>
+          <strong>Testes Piloto:</strong> Realizar testes piloto do aplicativo em parceria com instituições médicas e grupos de pacientes. Essa fase permitirá ajustes com base no feedback real, identificando possíveis obstáculos e refinando a usabilidade do aplicativo.
+        </li>
+        <li>
+          <strong>Treinamento Médico:</strong> Implementar programas de treinamento para profissionais de saúde, visando familiarizá-los com a integração eficiente do "illTracker" no processo de atendimento. Isso incluiria a orientação sobre como interpretar os dados fornecidos pelo aplicativo e integrá-los aos registros médicos tradicionais.
+        </li>
+        <li>
+          <strong>Integração com Sistemas Hospitalares:</strong> Estabelecer uma integração eficaz entre o "illTracker" e os sistemas hospitalares existentes. Isso garantirá que as informações coletadas pelos pacientes estejam prontamente disponíveis para os médicos no ambiente hospitalar, evitando redundâncias e facilitando a tomada de decisões.
+        </li>
+        <li>
+          <strong>Educação do Paciente:</strong> Desenvolver campanhas educativas para informar os pacientes sobre os benefícios do uso do aplicativo "illTracker". Esclarecer sobre como o registro regular de sintomas e medicamentos pode contribuir para um atendimento mais eficaz e personalizado.
+        </li>
+        <li>
+          <strong>Parcerias Institucionais:</strong> Buscar parcerias estratégicas com instituições de saúde, laboratórios farmacêuticos e seguradoras para promover a adoção do "illTracker". Essas parcerias podem facilitar a disseminação da tecnologia e promover sua aceitação generalizada.
+        </li>
+        <li>
+          <strong>Avaliação Contínua:</strong> Implementar mecanismos de avaliação contínua para monitorar a eficácia do "illTracker" ao longo do tempo. Isso incluiria análises de dados, pesquisas de satisfação do paciente e feedback dos profissionais de saúde, permitindo ajustes contínuos e melhorias conforme necessário.
+        </li>
+      </ul>
       </div>
       <div id="comoFuncionara">
         <h1>Como funcionara</h1>
-        <p className="Textos">Os usuários do MediAlert 
-        podem facilmente adicionar todos os seus medicamentos 
-        no aplicativo, especificando o nome, dosagem e horários
-         de ingestão. O aplicativo então envia lembretes 
-         automáticos quando é hora de tomar cada medicamento. 
-         Em caso de não confirmação da ingestão, os cuidadores 
-         são alertados. Além disso, o aplicativo está equipado 
-         com um sensor de queda, que detecta quedas e aciona 
-         automaticamente um alerta para os cuidadores. O botão 
-         de emergência oferece uma camada adicional de 
-         segurança, permitindo que o usuário avise seus 
-         cuidadores em situações críticas.</p>
+        <p className="Textos">Com o nosso dispositivo o usuário ao apertar um botão pode registrar a sua temperatura e batimentos cardiacos atuais e por meio de nosso aplicativo o usuário pode registrar mais sintomas que ele está sentindo.</p>
+        <img id="fotoHardware" src={fotoHardware} alt="foto do arduino" />
       </div>
       <div id="textoSobre">
       <p className="Textos">O MediAlert, um assistente inteligente 
