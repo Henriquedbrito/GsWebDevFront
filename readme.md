@@ -7,12 +7,11 @@ Repósitorio e informações de instalação do site de apresentação do projet
 
 
 ## Sumário
-- [Problemas na hora do checkup](#problemas-na-hora-do-checkup)
-- [A nossa proposta](#a-nossa-proposta)
-- [Exemplos do projeto](#imagem-exemplificando-o-projeto-montado)
-- [Planos Para o futuro](#instalação)
-- [Configurações](#configurações)
-- [Como executar](#como-executar)
+- [Integrantes](#Integrantes-da-Equipe)
+- [Info de acesso](#Informações-de-Acesso)
+- [Passo a passo para execução](#Passos-para-Executar-o-projeto)
+- [Login](#login-e-uso)
+- [Importante](#notas-importantes)
 ## Integrantes da Equipe
 
 - [Henrique de brito costa], RM98831
@@ -68,7 +67,7 @@ Para acessar o sistema, siga os passos abaixo:
 ### Login e Uso
 
 - Na página de login, use os emails e senhas fornecidos acima.
-- Após o login, você será redirecionado para a página inicial, onde encontrará informações sobre o produto.
+- Após o login, você será redirecionado para a página inicial, onde encontrará informações sobre nosso projeto.
 - Para sair, clique no botão de logout próximo às suas informações de usuário. Isso o redirecionará para a página de login novamente.
 
 ## Notas Importantes
