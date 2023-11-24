@@ -1,5 +1,5 @@
 # Illtracker
-![Logoilltracker](../img/illtrackerlogo.png)
+![Logoilltracker](illtrackerlogo.png)
 Repósitorio e informações de instalação do site de apresentação do projeto [Illtracker]
 
 
