@@ -1,0 +1,17 @@
+{
+    "usuarios": [
+      {
+        "nome": "Alê",
+        "email": "alexandreJesus@gmail.com",
+        "senha": "pf0670",
+        "id": 1
+      },
+     
+      {
+        "nome": "aldair",
+        "email": "aldair@gmail.com",
+        "senha": "321",
+        "id": 2
+      }
+    ]
+  }
