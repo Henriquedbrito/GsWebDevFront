@@ -20,8 +20,9 @@ export default function Home() {
   return (
     <div id="paginaHome">
       <div id="imgProd">
-        <img id="fotoIdoso" src={fotoexemplo} alt="fotoDeUmIdoso" />
+        <img id="fotoExemplo" src={fotoexemplo} alt="fotoExemploMedico" />
       </div>
+      
       <div id="oqSolucao">
         <h1>Qual é a nossa solução?</h1>
         <p className="Textos">
@@ -58,25 +59,19 @@ export default function Home() {
       <div id="comoFuncionara">
         <h1>Como funcionara</h1>
         <p className="Textos">Com o nosso dispositivo o usuário ao apertar um botão pode registrar a sua temperatura e batimentos cardiacos atuais e por meio de nosso aplicativo o usuário pode registrar mais sintomas que ele está sentindo.</p>
-        <img id="fotoHardware" src={fotoHardware} alt="foto do arduino" />
+        <div>
+          <div className="fotoHardware"></div>
+            <img id="fotoHardware" src={fotoHardware} alt="foto do arduino" />
+            </div>
       </div>
       <div id="textoSobre">
-      <p className="Textos">O MediAlert, um assistente inteligente 
-        inovador, transforma o tratamento médico ao simplificar a 
-        administração de medicamentos. Com lembretes precisos, ele 
-        assegura a adesão correta ao regime de medicação, crucial 
-        para a eficácia do tratamento.</p>
+        <h1>Sobre o illTracker</h1>
+        <p className="Textos">No cenário desafiador da prestação de serviços de saúde, o illTracker surge como uma solução inovadora para otimizar a eficiência no gerenciamento de informações dos pacientes. Ao oferecer aos pacientes um espaço personalizado para registrar sintomas e informar sobre medicamentos, o aplicativo elimina a redundância de dados e proporciona um fluxo mais ágil nas consultas médicas. Com a recuperação instantânea de informações relevantes ao fornecer o código do perfil no hospital, o illTracker visa reduzir o tempo de atendimento e permitir uma análise aprofundada da condição do paciente, contribuindo assim para uma experiência mais eficaz e segura no atendimento médico.</p>
       </div>
       
-      <div id="tituloSolucao">
-        <h2>O assistente da sua saúde</h2>
-      </div>
       <div id="solucao">
-      <p className="Textos">O MediAlert, um assistente inteligente 
-        inovador, transforma o tratamento médico ao simplificar a 
-        administração de medicamentos. Com lembretes precisos, ele 
-        assegura a adesão correta ao regime de medicação, crucial 
-        para a eficácia do tratamento.</p>
+      <h1>O assistente da sua saúde</h1>
+      <p className="Textos">O "illTracker" é um aplicativo concebido para simplificar a vida dos pacientes e otimizar a prática médica. Este aplicativo oferece aos pacientes um espaço personalizado diário para registrar sintomas como náusea, diarreia, dor muscular, enxaqueca, e informar sobre a ingestão de medicamentos ao longo do dia. Ao chegar ao hospital, o paciente só precisa fornecer o código do seu perfil no aplicativo, possibilitando a recuperação instantânea de todas as informações relevantes para o registro hospitalar. Além disso, o histórico dos problemas relatados nos últimos meses fica disponível para o médico, facilitando um mapeamento detalhado e uma análise mais aprofundada da condição do paciente.</p>
       </div>
       <div id="vantagens">
           <h1>Nossas Vantagens:</h1>

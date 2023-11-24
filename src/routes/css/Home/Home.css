@@ -31,7 +31,7 @@
   padding: 20px;
 }
 
-#imgProd, #oqSolucao, #oqFara, #comoFuncionara, #textoSobre, #tituloSolucao, #solucao, #vantagens {
+#imgProd, #oqSolucao, #oqFara, #comoFuncionara, #textoSobre, #solucao, #vantagens {
   padding: 20px;
   border: 2px solid var(--cor-secundaria);
   border-radius: 5px;
@@ -45,4 +45,63 @@
 
 h1 {
   color: var(--cor-texto);
+}
+
+#fotoHardware {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  #paginaHome {
+    grid-template-columns: 1fr; /* Uma coluna em telas menores que 1000px */
+  }
+  #imgProd,
+  #oqSolucao,
+  #oqFara,
+  #comoFuncionara,
+  #textoSobre,
+  #solucao,
+  #vantagens {
+    margin-right: 0; /* Remova a margem direita nas telas menores que 1000px */
+  }
+}
+@media screen and (max-width: 600px) {
+  #paginaHome {
+    grid-template-columns: 1fr; /* Uma coluna em telas menores que 600px */
+  }
+}
+@media screen and (max-width: 500px) {
+  #paginaHome {
+    grid-template-columns: 1fr; /* Uma coluna em telas menores que 500px */
+  }
+  #imgProd,
+  #oqSolucao,
+  #oqFara,
+  #comoFuncionara,
+  #textoSobre,
+  #solucao,
+  #vantagens {
+    margin-right: 0; /* Remova a margem direita nas telas menores que 500px */
+  }
+}
+@media screen and (max-width: 440px) {
+  #paginaHome {
+    grid-template-columns: 1fr; /* Uma coluna em telas menores que 440px */
+  }
+}
+@media screen and (max-width: 388px) {
+  #paginaHome {
+    grid-template-columns: 1fr; /* Uma coluna em telas menores que 388px */
+  }
+}
+@media screen and (max-width: 344px) {
+  #paginaHome {
+    grid-template-columns: 1fr; /* Uma coluna em telas menores que 344px */
+  }
+}
+@media screen and (max-width: 290px) {
+  #paginaHome {
+    grid-template-columns: 1fr; /* Uma coluna em telas menores que 290px */
+  }
 }/*# sourceMappingURL=Home.css.map */
