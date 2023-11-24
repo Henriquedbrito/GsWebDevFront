@@ -16,7 +16,7 @@ link do repositorio: https://github.com/Henriquedbrito/GsWebDevFront
 ## Integrantes da Equipe
 
 - [Henrique de brito costa], RM98831
--  [Pedro Zilves Hissa Quaresma Romão], RM99482
+- [Pedro Zilves Hissa Quaresma Romão], RM99482
 
 ## Informações de Acesso
 
@@ -74,7 +74,7 @@ Para acessar o sistema, siga os passos abaixo:
 ## Notas Importantes
 
 - Certifique-se de que todas as informações de acesso estejam corretas para evitar problemas no acesso ao projeto.
-- Em caso de dúvidas ou problemas, entre em contato com os integrantes da equipe.
--Deixar o zoom do navegador em 100%
+- Em caso de dúvidas ou problemas, entre em contato conosco.
+
 
 
