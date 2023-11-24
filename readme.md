@@ -76,6 +76,4 @@ Para acessar o sistema, siga os passos abaixo:
 - Em caso de dúvidas ou problemas, entre em contato com os integrantes da equipe.
 -Deixar o zoom do navegador em 100%
 
----
 
-Projeto desenvolvido por [Matheus José de Lima Costa e João Paulo Fonseca Zamperlini].
